@@ -1,0 +1,42 @@
+body 
+{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+h1
+{
+    font-family:'Times New Roman', 'Times', 'serif';
+}
+
+h2
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    color:blueviolet;
+    text-align: center;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
