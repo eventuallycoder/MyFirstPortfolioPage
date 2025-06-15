@@ -1,20 +1,57 @@
 body 
 {
-    background-color: aqua;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    background-image:urL(Background_Photo.jpg);
+    background-attachment: fixed;
+    background-size:cover;
 }
 
 h1
 {
-    font-family:'Times New Roman', 'Times', 'serif';
+  text-align: center;
 }
+
 
 h2
 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    color:blueviolet;
-    text-align: center;
+   text-align: center; 
 }
+
+h3
+{
+  text-align: center; 
+}
+
+p
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+pre
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+#projects_1
+{
+  text-align: center;
+}
+
+address
+{
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 
 a:link {
